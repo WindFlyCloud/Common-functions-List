@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB9380281EF90C1C0003F9D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9380271EF90C1C0003F9D2 /* main.m */; };
+		FB93802B1EF90C1C0003F9D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB93802A1EF90C1C0003F9D2 /* AppDelegate.m */; };
+		FB93802E1EF90C1C0003F9D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB93802D1EF90C1C0003F9D2 /* ViewController.m */; };
+		FB9380311EF90C1C0003F9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB93802F1EF90C1C0003F9D2 /* Main.storyboard */; };
+		FB9380331EF90C1C0003F9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9380321EF90C1C0003F9D2 /* Assets.xcassets */; };
+		FB9380361EF90C1C0003F9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9380341EF90C1C0003F9D2 /* LaunchScreen.storyboard */; };
+		FB9380411EF90C1D0003F9D2 /* CXPopTableMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9380401EF90C1D0003F9D2 /* CXPopTableMenuViewTests.m */; };
+		FB93804C1EF90C1D0003F9D2 /* CXPopTableMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB93804B1EF90C1D0003F9D2 /* CXPopTableMenuViewUITests.m */; };
+		FB93805C1EF90C830003F9D2 /* CXPopTableMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FB93805B1EF90C830003F9D2 /* CXPopTableMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB93803D1EF90C1D0003F9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB93801B1EF90C1C0003F9D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9380221EF90C1C0003F9D2;
+			remoteInfo = CXPopTableMenuView;
+		};
+		FB9380481EF90C1D0003F9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB93801B1EF90C1C0003F9D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9380221EF90C1C0003F9D2;
+			remoteInfo = CXPopTableMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB9380231EF90C1C0003F9D2 /* CXPopTableMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXPopTableMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9380271EF90C1C0003F9D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB9380291EF90C1C0003F9D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB93802A1EF90C1C0003F9D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB93802C1EF90C1C0003F9D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB93802D1EF90C1C0003F9D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB9380301EF90C1C0003F9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB9380321EF90C1C0003F9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB9380351EF90C1C0003F9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB9380371EF90C1C0003F9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB93803C1EF90C1D0003F9D2 /* CXPopTableMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXPopTableMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9380401EF90C1D0003F9D2 /* CXPopTableMenuViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPopTableMenuViewTests.m; sourceTree = "<group>"; };
+		FB9380421EF90C1D0003F9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9380471EF90C1D0003F9D2 /* CXPopTableMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXPopTableMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB93804B1EF90C1D0003F9D2 /* CXPopTableMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPopTableMenuViewUITests.m; sourceTree = "<group>"; };
+		FB93804D1EF90C1D0003F9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB93805A1EF90C830003F9D2 /* CXPopTableMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXPopTableMenu.h; sourceTree = "<group>"; };
+		FB93805B1EF90C830003F9D2 /* CXPopTableMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXPopTableMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB9380201EF90C1C0003F9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9380391EF90C1D0003F9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9380441EF90C1D0003F9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB93801A1EF90C1C0003F9D2 = {
+			isa = PBXGroup;
+			children = (
+				FB9380251EF90C1C0003F9D2 /* CXPopTableMenuView */,
+				FB93803F1EF90C1D0003F9D2 /* CXPopTableMenuViewTests */,
+				FB93804A1EF90C1D0003F9D2 /* CXPopTableMenuViewUITests */,
+				FB9380241EF90C1C0003F9D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9380241EF90C1C0003F9D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9380231EF90C1C0003F9D2 /* CXPopTableMenuView.app */,
+				FB93803C1EF90C1D0003F9D2 /* CXPopTableMenuViewTests.xctest */,
+				FB9380471EF90C1D0003F9D2 /* CXPopTableMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9380251EF90C1C0003F9D2 /* CXPopTableMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				FB9380291EF90C1C0003F9D2 /* AppDelegate.h */,
+				FB93802A1EF90C1C0003F9D2 /* AppDelegate.m */,
+				FB93802C1EF90C1C0003F9D2 /* ViewController.h */,
+				FB93802D1EF90C1C0003F9D2 /* ViewController.m */,
+				FB9380591EF90C830003F9D2 /* CXPopTableMenu */,
+				FB93802F1EF90C1C0003F9D2 /* Main.storyboard */,
+				FB9380321EF90C1C0003F9D2 /* Assets.xcassets */,
+				FB9380341EF90C1C0003F9D2 /* LaunchScreen.storyboard */,
+				FB9380371EF90C1C0003F9D2 /* Info.plist */,
+				FB9380261EF90C1C0003F9D2 /* Supporting Files */,
+			);
+			path = CXPopTableMenuView;
+			sourceTree = "<group>";
+		};
+		FB9380261EF90C1C0003F9D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9380271EF90C1C0003F9D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB93803F1EF90C1D0003F9D2 /* CXPopTableMenuViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB9380401EF90C1D0003F9D2 /* CXPopTableMenuViewTests.m */,
+				FB9380421EF90C1D0003F9D2 /* Info.plist */,
+			);
+			path = CXPopTableMenuViewTests;
+			sourceTree = "<group>";
+		};
+		FB93804A1EF90C1D0003F9D2 /* CXPopTableMenuViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB93804B1EF90C1D0003F9D2 /* CXPopTableMenuViewUITests.m */,
+				FB93804D1EF90C1D0003F9D2 /* Info.plist */,
+			);
+			path = CXPopTableMenuViewUITests;
+			sourceTree = "<group>";
+		};
+		FB9380591EF90C830003F9D2 /* CXPopTableMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FB93805A1EF90C830003F9D2 /* CXPopTableMenu.h */,
+				FB93805B1EF90C830003F9D2 /* CXPopTableMenu.m */,
+			);
+			path = CXPopTableMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9380221EF90C1C0003F9D2 /* CXPopTableMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9380501EF90C1D0003F9D2 /* Build configuration list for PBXNativeTarget "CXPopTableMenuView" */;
+			buildPhases = (
+				FB93801F1EF90C1C0003F9D2 /* Sources */,
+				FB9380201EF90C1C0003F9D2 /* Frameworks */,
+				FB9380211EF90C1C0003F9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXPopTableMenuView;
+			productName = CXPopTableMenuView;
+			productReference = FB9380231EF90C1C0003F9D2 /* CXPopTableMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB93803B1EF90C1D0003F9D2 /* CXPopTableMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9380531EF90C1D0003F9D2 /* Build configuration list for PBXNativeTarget "CXPopTableMenuViewTests" */;
+			buildPhases = (
+				FB9380381EF90C1D0003F9D2 /* Sources */,
+				FB9380391EF90C1D0003F9D2 /* Frameworks */,
+				FB93803A1EF90C1D0003F9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB93803E1EF90C1D0003F9D2 /* PBXTargetDependency */,
+			);
+			name = CXPopTableMenuViewTests;
+			productName = CXPopTableMenuViewTests;
+			productReference = FB93803C1EF90C1D0003F9D2 /* CXPopTableMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB9380461EF90C1D0003F9D2 /* CXPopTableMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9380561EF90C1D0003F9D2 /* Build configuration list for PBXNativeTarget "CXPopTableMenuViewUITests" */;
+			buildPhases = (
+				FB9380431EF90C1D0003F9D2 /* Sources */,
+				FB9380441EF90C1D0003F9D2 /* Frameworks */,
+				FB9380451EF90C1D0003F9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9380491EF90C1D0003F9D2 /* PBXTargetDependency */,
+			);
+			name = CXPopTableMenuViewUITests;
+			productName = CXPopTableMenuViewUITests;
+			productReference = FB9380471EF90C1D0003F9D2 /* CXPopTableMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB93801B1EF90C1C0003F9D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "YJKJ-CaoXu";
+				TargetAttributes = {
+					FB9380221EF90C1C0003F9D2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					FB93803B1EF90C1D0003F9D2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB9380221EF90C1C0003F9D2;
+					};
+					FB9380461EF90C1D0003F9D2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB9380221EF90C1C0003F9D2;
+					};
+				};
+			};
+			buildConfigurationList = FB93801E1EF90C1C0003F9D2 /* Build configuration list for PBXProject "CXPopTableMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB93801A1EF90C1C0003F9D2;
+			productRefGroup = FB9380241EF90C1C0003F9D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9380221EF90C1C0003F9D2 /* CXPopTableMenuView */,
+				FB93803B1EF90C1D0003F9D2 /* CXPopTableMenuViewTests */,
+				FB9380461EF90C1D0003F9D2 /* CXPopTableMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB9380211EF90C1C0003F9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9380361EF90C1C0003F9D2 /* LaunchScreen.storyboard in Resources */,
+				FB9380331EF90C1C0003F9D2 /* Assets.xcassets in Resources */,
+				FB9380311EF90C1C0003F9D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB93803A1EF90C1D0003F9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9380451EF90C1D0003F9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB93801F1EF90C1C0003F9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB93802E1EF90C1C0003F9D2 /* ViewController.m in Sources */,
+				FB93802B1EF90C1C0003F9D2 /* AppDelegate.m in Sources */,
+				FB93805C1EF90C830003F9D2 /* CXPopTableMenu.m in Sources */,
+				FB9380281EF90C1C0003F9D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9380381EF90C1D0003F9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9380411EF90C1D0003F9D2 /* CXPopTableMenuViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9380431EF90C1D0003F9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB93804C1EF90C1D0003F9D2 /* CXPopTableMenuViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB93803E1EF90C1D0003F9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9380221EF90C1C0003F9D2 /* CXPopTableMenuView */;
+			targetProxy = FB93803D1EF90C1D0003F9D2 /* PBXContainerItemProxy */;
+		};
+		FB9380491EF90C1D0003F9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9380221EF90C1C0003F9D2 /* CXPopTableMenuView */;
+			targetProxy = FB9380481EF90C1D0003F9D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB93802F1EF90C1C0003F9D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9380301EF90C1C0003F9D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB9380341EF90C1C0003F9D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9380351EF90C1C0003F9D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB93804E1EF90C1D0003F9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB93804F1EF90C1D0003F9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB9380511EF90C1D0003F9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CXPopTableMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.CXPopTableMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB9380521EF90C1D0003F9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CXPopTableMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.CXPopTableMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB9380541EF90C1D0003F9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CXPopTableMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.CXPopTableMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXPopTableMenuView.app/CXPopTableMenuView";
+			};
+			name = Debug;
+		};
+		FB9380551EF90C1D0003F9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CXPopTableMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.CXPopTableMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXPopTableMenuView.app/CXPopTableMenuView";
+			};
+			name = Release;
+		};
+		FB9380571EF90C1D0003F9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CXPopTableMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.CXPopTableMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CXPopTableMenuView;
+			};
+			name = Debug;
+		};
+		FB9380581EF90C1D0003F9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CXPopTableMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YJKJ.CXPopTableMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CXPopTableMenuView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB93801E1EF90C1C0003F9D2 /* Build configuration list for PBXProject "CXPopTableMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB93804E1EF90C1D0003F9D2 /* Debug */,
+				FB93804F1EF90C1D0003F9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9380501EF90C1D0003F9D2 /* Build configuration list for PBXNativeTarget "CXPopTableMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9380511EF90C1D0003F9D2 /* Debug */,
+				FB9380521EF90C1D0003F9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB9380531EF90C1D0003F9D2 /* Build configuration list for PBXNativeTarget "CXPopTableMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9380541EF90C1D0003F9D2 /* Debug */,
+				FB9380551EF90C1D0003F9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB9380561EF90C1D0003F9D2 /* Build configuration list for PBXNativeTarget "CXPopTableMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9380571EF90C1D0003F9D2 /* Debug */,
+				FB9380581EF90C1D0003F9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB93801B1EF90C1C0003F9D2 /* Project object */;
+}
